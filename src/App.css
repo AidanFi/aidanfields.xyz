@@ -1,0 +1,28 @@
+body {
+    background-image: url("Background.jpg");
+}
+
+.name {
+    font-size: 100px;
+    color: white;
+    margin-top: 65px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    text-shadow: 1px 3px 6px black;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.student {
+    font-size: 40px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    text-shadow: 1px 3px 6px black;
+
+    display: flex;
+    justify-content: center;
+}
+

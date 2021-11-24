@@ -8,6 +8,12 @@ function App() {
       <header className="App-header">
         <Hero />
       </header>
+      <div class="name">
+        Aidan Fields
+      </div>
+      <div class="student">
+        Computer Science Student
+      </div>
     </div>
   );
 }
