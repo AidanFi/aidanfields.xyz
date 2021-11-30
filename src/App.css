@@ -1,13 +1,13 @@
 body {
     background-image: url("Background.jpg");
+    background-position-x: center;
 }
 
 .name {
     font-size: 100px;
     color: white;
     margin-top: 65px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: lighter;
+    font-family: 'Franklin Gothic';
     text-shadow: 1px 3px 6px black;
 
     display: flex;
@@ -18,11 +18,34 @@ body {
 .student {
     font-size: 40px;
     color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: lighter;
+    font-family: 'Franklin Gothic';
     text-shadow: 1px 3px 6px black;
+    margin-top: -5px;
 
     display: flex;
     justify-content: center;
 }
 
+.line {
+    width: 42.5%;
+    margin-top: 12px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.footer {
+    color: white;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    position: bottom;
+    fill:white
+
+
+}
