@@ -1,12 +1,14 @@
 body {
     background-image: url("Background.jpg");
     background-position-x: center;
+    margin:0px;
+    padding:0px;
 }
 
 .name {
     font-size: 100px;
     color: white;
-    margin-top: 65px;
+    margin-top: 145px;
     font-family: 'Franklin Gothic';
     text-shadow: 1px 3px 6px black;
 
@@ -20,32 +22,111 @@ body {
     color: white;
     font-family: 'Franklin Gothic';
     text-shadow: 1px 3px 6px black;
-    margin-top: -5px;
+    margin-top: -10px;
 
     display: flex;
     justify-content: center;
 }
 
 .line {
-    width: 42.5%;
-    margin-top: 12px;
+    width: 43%;
+    margin-top: 20px;
+    color: white;
 }
 
 .links {
     display: flex;
     justify-content: center;
-    justify-content: space-evenly;
+    flex-direction: row;
+    column-gap: 60px;
     margin-top: 40px;
 }
-
 .footer {
-    color: white;
+
     width: 100%;
     height: 40px;
     display: flex;
     flex-direction: row;
     position: bottom;
-    fill:white
 
+}
 
+.logo {
+    height: 38px;
+    width: 38px;
+    margin-top: 5px;
+}
+
+.App-header {
+    background-color: white;
+
+}
+
+.topnav {
+    display: flex;
+    justify-content:right;
+    flex-direction: row;
+    font-size: 25px;
+    font-family: 'Leelawadee UI';
+    color: black;
+    font-weight: bold;
+    margin-top: -42px;
+    padding-bottom: 9px;
+}
+
+.home {
+    margin-right: 15px;
+}
+
+.home:hover {
+    color: #444;
+}
+
+.about {
+    margin-right: 15px;
+}
+
+.about:hover {
+    color: #444;
+}
+
+.contact {
+    margin-right: 15px;
+}
+
+.contact:hover {
+    color: #444;
+}
+
+.projects {
+    margin-right: 30px;
+}
+
+.projects:hover {
+    color: #444;
+}
+
+.footer {
+
+    margin-top: 274px;
+    color:black;
+    display:flex;
+    justify-content: center;
+    font-family: 'Leelawadee UI';
+    font-size: .8rem;
+}
+
+.credit {
+    margin-top: 10px;
+    margin-right: 30px;
+    color: white;
+}
+
+hr.vertical {
+  border: 0;
+  margin: 0;
+  border-left: 3px solid black;
+  height: 35px;
+  float: left;
+  margin-right: 15px;
 }

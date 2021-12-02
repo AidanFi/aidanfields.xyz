@@ -1,16 +1,31 @@
-import Hero from './Hero';
-import Footer from './Footer';
 import './App.css';
+import About from './About';
+import Contact from './Contact';
+import projects from './Projects';
 import email from './email.svg';
 import resume from './resume.svg';
 import github from './github.svg';
 import linkedin from './linkedin.svg';
+import Logo from './af.jpg';
+
 
 function App() {
   return (
+
     <div className="App">
       <header className="App-header">
-        <Hero />
+        <div>
+          <img src={Logo} class="logo"/>
+        </div>
+        <div class="topnav">
+          <div class="home">Home</div>
+          <hr class="vertical" />
+          <div class="about">About</div>
+          <hr class="vertical" />
+          <div class="contact">Contact</div>
+          <hr class="vertical" />
+          <div class="projects">Projects</div>
+        </div>
       </header>
       <div class="name">
         Aidan Fields
@@ -33,7 +48,9 @@ function App() {
           <img src={linkedin} />
         </a>
         </ div>
-      <Footer />
+      <footer className="footer">
+        <div class="credit">Wesbite created in React by Aidan Fields</div>
+      </footer>
     </div>
   );
 }
