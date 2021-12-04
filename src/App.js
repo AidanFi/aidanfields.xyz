@@ -7,6 +7,7 @@ import resume from './resume.svg';
 import github from './github.svg';
 import linkedin from './linkedin.svg';
 import Logo from './af.jpg';
+import { Switch, AppRoute } from 'react-router-dom';
 
 
 function App() {
@@ -38,7 +39,7 @@ function App() {
         <a href="mailto:aidanfields12@gmail.com">
           <img src={email} />
         </a>
-        <a href="INSERT RESUME HERE">
+        <a href="https://www.linkedin.com/in/aidan-fields-a648541a7/detail/overlay-view/urn:li:fsd_profileTreasuryMedia:(ACoAADBbhewBAbUbqgNAjmJg8azIigZA4TzdtaM,1635476517430)/">
           <img src={resume} />
         </a>
         <a href="https://github.com/AidanFi">
