@@ -1,10 +1,11 @@
+/* Whole page */
 body {
     background-image: url("Background.jpg");
     background-position-x: center;
     margin:0px;
     padding:0px;
 }
-
+/* Titles/subtitles */
 .name {
     font-size: 100px;
     color: white;
@@ -15,6 +16,16 @@ body {
     display: flex;
     justify-content: center;
 
+}
+.title{
+    font-size: 80px;
+    color: white;
+    font-family: 'Franklin Gothic';
+    text-shadow: 1px 3px 6px black;
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: -10px;
 }
 
 .student {
@@ -33,7 +44,12 @@ body {
     margin-top: 20px;
     color: white;
 }
-
+.line2{
+    width: 30%;
+    margin-top: 20px;
+    color: white;
+}
+/* Links */
 .links {
     display: flex;
     justify-content: center;
@@ -41,16 +57,7 @@ body {
     column-gap: 60px;
     margin-top: 40px;
 }
-.footer {
-
-    width: 100%;
-    height: 40px;
-    display: flex;
-    flex-direction: row;
-    position: bottom;
-
-}
-
+/* top nav */
 .logo {
     height: 38px;
     width: 38px;
@@ -74,43 +81,50 @@ body {
     padding-bottom: 9px;
 }
 
-.home {
+.home:link, .home:visited {
     margin-right: 15px;
+    color: black;
+    text-decoration: none;
 }
-
 .home:hover {
-    color: #444;
+    color: #1C5B6C !important;
 }
 
-.about {
+.about:link, .about:visited {
     margin-right: 15px;
+    color: black;
+    text-decoration: none;
 }
-
 .about:hover {
-    color: #444;
+    color: #1C5B6C !important;
 }
 
-.contact {
+.contact:link, .contact:visited{
     margin-right: 15px;
+    color: black;
+    text-decoration: none;
 }
-
 .contact:hover {
-    color: #444;
+    color: #1C5B6C !important;
 }
 
-.projects {
+.projects:link, .projects:visited {
     margin-right: 30px;
+    color: black;
+    text-decoration: none;
 }
-
 .projects:hover {
-    color: #444;
+    color: #1C5B6C !important;
 }
-
-.footer {
-
-    margin-top: 274px;
+/* Footer */
+.footer { 
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    position: bottom;
+    margin-top: 273px;
     color:black;
-    display:flex;
     justify-content: center;
     font-family: 'Leelawadee UI';
     font-size: .8rem;
@@ -121,7 +135,7 @@ body {
     margin-right: 30px;
     color: white;
 }
-
+/* Vertical line */
 hr.vertical {
   border: 0;
   margin: 0;
@@ -130,3 +144,27 @@ hr.vertical {
   float: left;
   margin-right: 15px;
 }
+/* Rotating image secton  */
+.construction {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+.rotate {
+    animation: rotation 10s;
+  }
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+  .linear {
+    animation-timing-function: linear;
+  }
+  .infinite {
+    animation-iteration-count: infinite;
+  }

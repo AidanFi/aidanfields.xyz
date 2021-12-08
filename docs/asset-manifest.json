@@ -1,28 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.6c4fd89b.chunk.css",
-    "main.js": "/static/js/main.8c2183bf.chunk.js",
-    "main.js.map": "/static/js/main.8c2183bf.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.8dd777d1.js",
-    "runtime-main.js.map": "/static/js/runtime-main.8dd777d1.js.map",
-    "static/js/2.534718e9.chunk.js": "/static/js/2.534718e9.chunk.js",
-    "static/js/2.534718e9.chunk.js.map": "/static/js/2.534718e9.chunk.js.map",
-    "static/js/3.e396291a.chunk.js": "/static/js/3.e396291a.chunk.js",
-    "static/js/3.e396291a.chunk.js.map": "/static/js/3.e396291a.chunk.js.map",
+    "main.css": "/static/css/main.564b4021.chunk.css",
+    "main.js": "/static/js/main.61d093cc.chunk.js",
+    "main.js.map": "/static/js/main.61d093cc.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7245babd.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7245babd.js.map",
+    "static/js/2.66932131.chunk.js": "/static/js/2.66932131.chunk.js",
+    "static/js/2.66932131.chunk.js.map": "/static/js/2.66932131.chunk.js.map",
+    "static/js/3.3bff285a.chunk.js": "/static/js/3.3bff285a.chunk.js",
+    "static/js/3.3bff285a.chunk.js.map": "/static/js/3.3bff285a.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.6c4fd89b.chunk.css.map": "/static/css/main.6c4fd89b.chunk.css.map",
-    "static/js/2.534718e9.chunk.js.LICENSE.txt": "/static/js/2.534718e9.chunk.js.LICENSE.txt",
+    "static/css/main.564b4021.chunk.css.map": "/static/css/main.564b4021.chunk.css.map",
+    "static/js/2.66932131.chunk.js.LICENSE.txt": "/static/js/2.66932131.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/Background.b26a2983.jpg",
     "static/media/af.a9d42858.jpg": "/static/media/af.a9d42858.jpg",
+    "static/media/construction.ee5fe458.png": "/static/media/construction.ee5fe458.png",
     "static/media/email.2e6d8d2f.svg": "/static/media/email.2e6d8d2f.svg",
     "static/media/github.d2a75559.svg": "/static/media/github.d2a75559.svg",
     "static/media/linkedin.a67f8e94.svg": "/static/media/linkedin.a67f8e94.svg",
     "static/media/resume.34fedde0.svg": "/static/media/resume.34fedde0.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8dd777d1.js",
-    "static/js/2.534718e9.chunk.js",
-    "static/css/main.6c4fd89b.chunk.css",
-    "static/js/main.8c2183bf.chunk.js"
+    "static/js/runtime-main.7245babd.js",
+    "static/js/2.66932131.chunk.js",
+    "static/css/main.564b4021.chunk.css",
+    "static/js/main.61d093cc.chunk.js"
   ]
 }
