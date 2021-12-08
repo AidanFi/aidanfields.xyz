@@ -168,3 +168,109 @@ hr.vertical {
   .infinite {
     animation-iteration-count: infinite;
   }
+
+/* About me page */
+.about-me-content {
+    color: white;
+    font-family: 'Leelawadee UI';
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 30px;
+    margin-right: 600px;
+    margin-left: 75px;
+    margin-top: 50px;
+}
+
+.circle {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-image: url("portrait.jpg");
+    background-position: center;
+    background-size: 700px;
+    background-position-y: -80px;
+    border: 4px;
+    border-style: solid;
+    border-color: white;
+    margin-left: 875px;
+    margin-top: -450px;
+}
+
+/* Contact page */
+
+input[type=text], select, textarea {
+    width: 38%;
+    padding: 12px; 
+    border: 2px solid black; 
+    border-radius: 6px; 
+    box-sizing: border-box; 
+    margin-top: 4px; 
+    margin-bottom: 12px; 
+    resize: vertical; 
+    display: flex;
+    flex-direction: column;
+  }
+  textarea[type=text] {
+      height: 100px;
+  }
+
+  input[type=submit] {
+    background-color: #8AC9FF;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 390px;
+    margin-top: 5px;
+    font-weight: bold;
+  }
+  .container {
+    border-radius: 5px;
+    font-family: 'Leelawadee UI';
+    padding: 20px;
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+
+  label {
+      color: white;
+      font-family: 'Leelawadee UI';
+      font-size: 1.3rem;
+  }
+.message-me{
+    font-family: 'Franklin Gothic';
+    text-shadow: 1px 3px 6px black;
+    color: white;
+    font-size: 2.5rem;
+    margin-left: 123px;
+    margin-bottom: 20px;
+}
+
+.contact-info{
+    color: white;
+    font-family: 'Franklin Gothic';
+    text-shadow: 1px 3px 6px black;
+    color: white;
+    font-size: 2.5rem;
+    margin-left: 850px;
+    margin-top: -527px;
+}
+
+.info{
+    font-family: 'Leelawadee UI';
+    font-size: 1.8rem;
+    text-shadow: none;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-left: 2px solid #777;
+    padding-left: 15px;
+}
+
+.info-sub{
+    font-weight: lighter;
+    color: #777;
+    margin-top: -5px;
+    margin-bottom: 10px;
+}
