@@ -195,8 +195,8 @@ hr.vertical {
     border-style: solid;
     border-color: white;
     margin-left: 15%;
-    margin-top: 5%;
-    margin-bottom: -45%;
+    margin-top: 3%;
+    margin-bottom: -550px;
 }
 
 /* Contact page */
@@ -233,6 +233,7 @@ input[type=text], select, textarea {
     font-family: 'Leelawadee UI';
     margin-left: 5vw;
     margin-top: 4%;
+    margin-bottom: -503px;
   }
 
   label {
@@ -256,7 +257,9 @@ input[type=text], select, textarea {
     color: white;
     font-size: 2.5rem;
     margin-left: 62vw;
-    margin-top: -37.15%;
+    /*margin-top: -37.15%;*/
+    position: relative;
+    float: left;
 }
 
 .info{
