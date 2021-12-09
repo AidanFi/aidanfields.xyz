@@ -28,12 +28,13 @@ function About() {
           <div class="about-me-content">
             I am currently a computer science student-athlete at Southwestern College in Winfield, Kansas.
             I plan to work in software development, with other interests being articifial inteligence/machine learning, ui/ux design, 
-            computer graphics, 3D modeling, and game development. <br/> <br/>
+            computer graphics, 3D modeling, and game development. <br/> 
+          <div class="circle"/>
+            <br/>
             I know the C++ and Python programming languages, as well as 
             HTML, CSS, and JavaScript. I also have experience working in Windows and Linux, and I am able to code using functional 
             and object-oriented programming.
           </div>
-          <div class="circle"/>
           </div>
 
         
